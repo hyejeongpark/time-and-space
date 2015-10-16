@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Rokkitt);
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Rokkitt', serif;
+  margin: 0;
+}
+
+img {
+  float: right;
+  width: 70%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  position: relative;
+  z-index: -1;
+}
+
+section {
+  margin-top: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+#bryggen section {
+  margin-top: 0;
+}
+
+#bryggen img {
+  float: left;
+}
+
+#bryggen h1 {
+  position: absolute;  
+  left: 10%; 
+  font-size: 42px;
+  margin-top: 0;
+}
+
+#bryggen p {
+  position: relative;
+  left: 10%;
+  padding-top: 33px;
+}
+
+#content h2 {
+  position: absolute;  
+  left: 10%; 
+  font-size: 42px;
+  margin-top: 0;
+}
+
+#content p {
+  position: absolute;
+  top: 65%;  
+  left: 10%;
+  width: 25%; 
+  border-top: 6px solid white;
+  padding-top: 22px;
+}
+
+#content h2:before {
+  color: yellow;
+}
+
+#school h2:before { 
+   content: "01 ";
+}
+
+#room h2:before { 
+   content: "02 ";
+}
+
+#lightrail h2:before { 
+   content: "03 ";
+}
+
+#mountain h2:before { 
+   content: "04 ";
+}
+
+#button {
+  text-align: center;
+  color: black;
+  margin: 50px 0 0 0;
+  background-color: yellow;
+  padding: 10px 0;
+}

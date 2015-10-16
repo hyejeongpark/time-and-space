@@ -1,0 +1,73 @@
+body {
+  background-color: #CBD2DC;
+  margin: 0;
+  font-family: helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+#bryggen {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url("../img/bryggen.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 50px;
+}
+
+#bryggen section {
+  width: 95%;
+  margin: auto;
+}
+
+#bryggen h1 {
+  margin: 0px;
+  padding-top: 15px;
+  font-size: 110px;
+  color: white;
+}
+
+#bryggen p {
+  color: white;
+  padding-left: 7px;
+}
+
+#bryggen img {
+  display: none;
+}
+
+#content {
+  width: 95%;
+  margin: auto;
+}
+
+#content section {
+  margin: 10px;
+  width: 23%;
+  float: left;
+}
+
+#content h2 {
+  color: #242429;
+}
+
+p {
+  color: #4E5E6F;
+}
+
+#button {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 32px 0;
+  background-color: black;
+  margin: 40px 0 0 0;
+  color: #4682B4;
+}
